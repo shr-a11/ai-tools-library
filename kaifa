@@ -1,0 +1,138 @@
+!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI工具宝库 - 您的人工智能工具合集</title>
+    <style>
+        /* 这里将添加CSS样式 */
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .search-box {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .search-box input {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .categories {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .categories a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 5px 10px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .featured-tools {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .tool-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AI工具宝库</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">工具列表</a></li>
+                    <li><a href="#">比较</a></li>
+                    <li><a href="#">博客</a></li>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-box">
+            <input type="text" placeholder="搜索AI工具...">
+        </section>
+
+        <section class="categories">
+            <a href="#">语言处理</a>
+            <a href="#">图像生成</a>
+            <a href="#">音频处理</a>
+            <a href="#">视频编辑</a>
+            <a href="#">数据分析</a>
+        </section>
+
+        <section class="featured-tools">
+            <div class="tool-card">
+                <h3>ChatGPT</h3>
+                <p>强大的自然语言处理AI，可用于对话、写作和更多。</p>
+                <a href="#">了解更多</a>
+            </div>
+            <div class="tool-card">
+                <h3>Midjourney</h3>
+                <p>AI驱动的图像生成工具，创造惊人的艺术作品。</p>
+                <a href="#">了解更多</a>
+            </div>
+            <div class="tool-card">
+                <h3>DALL-E</h3>
+                <p>根据文本描述生成独特图像的AI工具。</p>
+                <a href="#">了解更多</a>
+            </div>
+            <!-- 可以继续添加更多工具卡片 -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 AI工具宝库. 保留所有权利.</p>
+            <nav>
+                <a href="#">关于我们</a> |
+                <a href="#">联系方式</a> |
+                <a href="#">隐私政策</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
